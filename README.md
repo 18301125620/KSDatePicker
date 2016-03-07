@@ -1,6 +1,6 @@
 # KSDatePicker
 
-![image](KSDatePicker/Untitled.gif)
+![image](https://github.com/18301125620/KSDatePicker/blob/master/Untitled.gif)
 
 ```
 //x,y 值无效，默认是居中的
