@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCD4B15C1C8D2FD4008B7506 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD4B15B1C8D2FD4008B7506 /* main.m */; };
+		FCD4B15F1C8D2FD4008B7506 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD4B15E1C8D2FD4008B7506 /* AppDelegate.m */; };
+		FCD4B1621C8D2FD4008B7506 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD4B1611C8D2FD4008B7506 /* ViewController.m */; };
+		FCD4B1651C8D2FD5008B7506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD4B1631C8D2FD5008B7506 /* Main.storyboard */; };
+		FCD4B1671C8D2FD5008B7506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD4B1661C8D2FD5008B7506 /* Assets.xcassets */; };
+		FCD4B16A1C8D2FD5008B7506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD4B1681C8D2FD5008B7506 /* LaunchScreen.storyboard */; };
+		FCD4B1761C8D2FF2008B7506 /* KSDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD4B1731C8D2FF2008B7506 /* KSDatePicker.m */; };
+		FCD4B1771C8D2FF2008B7506 /* KSDatePickerAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD4B1751C8D2FF2008B7506 /* KSDatePickerAppearance.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCD4B1571C8D2FD4008B7506 /* KSDatePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSDatePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD4B15B1C8D2FD4008B7506 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCD4B15D1C8D2FD4008B7506 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCD4B15E1C8D2FD4008B7506 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCD4B1601C8D2FD4008B7506 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCD4B1611C8D2FD4008B7506 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCD4B1641C8D2FD5008B7506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD4B1661C8D2FD5008B7506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD4B1691C8D2FD5008B7506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCD4B16B1C8D2FD5008B7506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD4B1721C8D2FF2008B7506 /* KSDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDatePicker.h; sourceTree = "<group>"; };
+		FCD4B1731C8D2FF2008B7506 /* KSDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDatePicker.m; sourceTree = "<group>"; };
+		FCD4B1741C8D2FF2008B7506 /* KSDatePickerAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDatePickerAppearance.h; sourceTree = "<group>"; };
+		FCD4B1751C8D2FF2008B7506 /* KSDatePickerAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDatePickerAppearance.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD4B1541C8D2FD4008B7506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD4B14E1C8D2FD4008B7506 = {
+			isa = PBXGroup;
+			children = (
+				FCD4B1591C8D2FD4008B7506 /* KSDatePickerDemo */,
+				FCD4B1581C8D2FD4008B7506 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD4B1581C8D2FD4008B7506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD4B1571C8D2FD4008B7506 /* KSDatePickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD4B1591C8D2FD4008B7506 /* KSDatePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FCD4B1711C8D2FF2008B7506 /* KSDatePicker */,
+				FCD4B15D1C8D2FD4008B7506 /* AppDelegate.h */,
+				FCD4B15E1C8D2FD4008B7506 /* AppDelegate.m */,
+				FCD4B1601C8D2FD4008B7506 /* ViewController.h */,
+				FCD4B1611C8D2FD4008B7506 /* ViewController.m */,
+				FCD4B1631C8D2FD5008B7506 /* Main.storyboard */,
+				FCD4B1661C8D2FD5008B7506 /* Assets.xcassets */,
+				FCD4B1681C8D2FD5008B7506 /* LaunchScreen.storyboard */,
+				FCD4B16B1C8D2FD5008B7506 /* Info.plist */,
+				FCD4B15A1C8D2FD4008B7506 /* Supporting Files */,
+			);
+			path = KSDatePickerDemo;
+			sourceTree = "<group>";
+		};
+		FCD4B15A1C8D2FD4008B7506 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD4B15B1C8D2FD4008B7506 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCD4B1711C8D2FF2008B7506 /* KSDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				FCD4B1721C8D2FF2008B7506 /* KSDatePicker.h */,
+				FCD4B1731C8D2FF2008B7506 /* KSDatePicker.m */,
+				FCD4B1741C8D2FF2008B7506 /* KSDatePickerAppearance.h */,
+				FCD4B1751C8D2FF2008B7506 /* KSDatePickerAppearance.m */,
+			);
+			path = KSDatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD4B1561C8D2FD4008B7506 /* KSDatePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD4B16E1C8D2FD5008B7506 /* Build configuration list for PBXNativeTarget "KSDatePickerDemo" */;
+			buildPhases = (
+				FCD4B1531C8D2FD4008B7506 /* Sources */,
+				FCD4B1541C8D2FD4008B7506 /* Frameworks */,
+				FCD4B1551C8D2FD4008B7506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSDatePickerDemo;
+			productName = KSDatePickerDemo;
+			productReference = FCD4B1571C8D2FD4008B7506 /* KSDatePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD4B14F1C8D2FD4008B7506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "孔";
+				TargetAttributes = {
+					FCD4B1561C8D2FD4008B7506 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FCD4B1521C8D2FD4008B7506 /* Build configuration list for PBXProject "KSDatePickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD4B14E1C8D2FD4008B7506;
+			productRefGroup = FCD4B1581C8D2FD4008B7506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD4B1561C8D2FD4008B7506 /* KSDatePickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD4B1551C8D2FD4008B7506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD4B16A1C8D2FD5008B7506 /* LaunchScreen.storyboard in Resources */,
+				FCD4B1671C8D2FD5008B7506 /* Assets.xcassets in Resources */,
+				FCD4B1651C8D2FD5008B7506 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD4B1531C8D2FD4008B7506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD4B1771C8D2FF2008B7506 /* KSDatePickerAppearance.m in Sources */,
+				FCD4B1621C8D2FD4008B7506 /* ViewController.m in Sources */,
+				FCD4B15F1C8D2FD4008B7506 /* AppDelegate.m in Sources */,
+				FCD4B15C1C8D2FD4008B7506 /* main.m in Sources */,
+				FCD4B1761C8D2FF2008B7506 /* KSDatePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCD4B1631C8D2FD5008B7506 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD4B1641C8D2FD5008B7506 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCD4B1681C8D2FD5008B7506 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD4B1691C8D2FD5008B7506 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD4B16C1C8D2FD5008B7506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCD4B16D1C8D2FD5008B7506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD4B16F1C8D2FD5008B7506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSDatePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianhe.KSDatePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCD4B1701C8D2FD5008B7506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSDatePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianhe.KSDatePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD4B1521C8D2FD4008B7506 /* Build configuration list for PBXProject "KSDatePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD4B16C1C8D2FD5008B7506 /* Debug */,
+				FCD4B16D1C8D2FD5008B7506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD4B16E1C8D2FD5008B7506 /* Build configuration list for PBXNativeTarget "KSDatePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD4B16F1C8D2FD5008B7506 /* Debug */,
+				FCD4B1701C8D2FD5008B7506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD4B14F1C8D2FD4008B7506 /* Project object */;
+}
